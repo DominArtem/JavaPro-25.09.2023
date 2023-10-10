@@ -1,6 +1,6 @@
-package com.hillel.domin.polimorfizm;
+package com.hillel.domin.homework5.polimorfizm.pasipent;
 
-public class Pasipent {
+public class Patisipent {
 
     private int maxLenghts;
     private int maxHight;
@@ -8,7 +8,7 @@ public class Pasipent {
     private String name;
 
 
-    public Pasipent(int maxLenghts, int maxHight, String name) {
+    public Patisipent(int maxLenghts, int maxHight, String name) {
         this.maxLenghts = maxLenghts;
         this.maxHight = maxHight;
         this.name = name;
@@ -28,11 +28,13 @@ public class Pasipent {
 
 
     public void jump(){
-        System.out.println("jumping");
+        System.out.println(name + " passed the barrier of the wall" + " at a distance: " + getMaxHight());
     }
    public void run(){
-       System.out.println("running");
+       System.out.println(name + " passed the treadmill hurdle" + " at a distance: " + getMaxLenghts());
    }
+
+
 
 
 
